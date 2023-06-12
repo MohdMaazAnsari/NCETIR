@@ -1,6 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
 .header{
     color: red;
     font-size: x-large;
     height: 40px;
     border:1px solid green
+}
+.headimg{
+    /* height:20px; */
+    border:5px solid red
+}
+.headimg img{
+    height:350px;
+    width:fit-content;
+    width:100%
+}
+.menubar{
+    z-index: 10;
+}
+.menubar ul{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    /*  */
+    text-decoration: none;
+}
+.menubar ul li{
+
+    background-color: #002343;
+    color: rgb(255, 255, 255);
+    margin:10px;
+    padding:15px;
+    border-radius: 2px;
+    text-decoration: none;
+    
+}
+.menubar ul li a:hover{
+    color:yellow
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:white
+}
+.menubar1{
+    display:none
+}
+.menubar ul li:hover .menubar1{
+    display: block;
+    border-radius: 0px;;
+    position: absolute;
+    /* background-color: red; */
+    /* background-color: #000000; */
+    text-align: left;
+    margin-left:0px;
+    padding-left: 0px;
+    margin-top:18px
+}
+.menubar ul li:hover .menubar1 ul{
+    display: block;
+  
+}
+.menubar ul li:hover .menubar1 ul li{
+    text-align: left;
+    margin:0px;
+    padding-left: 5px;
+    z-index: 5;
+    /* background: transparent; */
+    border-radius: 0px;
+}
+.menubar1 ul li:hover{
+    background-color: rgb(139, 31, 31);
+    z-index: 4;
 }

@@ -1,0 +1,13 @@
+.background{
+    background-color: rgba(3, 3, 56, 0.844);
+    height:400px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+
+}
+.logo img{
+    width:100%;
+}

@@ -1,0 +1,9 @@
+.chooseprogram{
+    /* background-image: "url(chooseprogram.jpg)"; */
+    height:400px;
+    border:1px solid green;
+}
+.chooseprogram select{
+    width:100px;
+    margin:50px
+}
